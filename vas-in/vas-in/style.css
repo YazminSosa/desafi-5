@@ -1,0 +1,63 @@
+body {
+    background-color: #693BCC;
+  }
+  
+
+ .navbar {
+    background-color: #F35F1C;
+  }
+  
+  h3 {
+    color:#FFFF;
+     
+  }
+  
+ .card-category {
+    color:#CB1F9C
+ }
+
+
+.cardPrc {
+    background-color: #20123A; 
+    display: flex;
+    border: none;
+}
+
+.card-img-top:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease;
+}
+
+.card-body {
+    display: block;
+  }
+  
+  
+.btnEdit, .btnDelete {
+    width: 60%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.btnDelete {
+    border: none;
+    color:#CB1F9C;
+    font-weight: 500;
+}   
+
+.btnEdit {
+    border: none;
+    background-color:#F35F1C;
+    color: white;
+}
+
+
+.card-txt{
+    align-self: center;
+}
+.card-h4 {
+    align-self: center;
+    text-transform: capitalize;
+}
